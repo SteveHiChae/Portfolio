@@ -1,0 +1,90 @@
+
+body {  
+  padding-top: 100px;
+  background: url('https://upload.wikimedia.org/wikipedia/commons/d/df/NASA_Lomax_Supercomputer.jpg') top center fixed;
+}
+/* background-image: url ... fixed didn't work */
+
+h1, h2, h3, p {
+  color: white;
+  margin-left: 1em;
+}
+
+.my_name {
+  font-family: Raleway;
+  font-size: 300%;
+  font-weight: bold;
+}
+
+#logo {
+  height: 26px;
+  width: 26px;
+}
+
+li { font-weight: bold; }
+
+.home {
+  width: 800px;
+  height: 400px;
+  position: relative;
+}
+
+#home_text {
+  font-family: Raleway;
+  background-color: rgba(0,0,0,0.3);
+  margin-left: auto;
+  margin-right: auto;
+  width: 80em;  
+}
+
+#about_text {
+  font-family: Raleway;
+  background-color: rgba(0,0,0,0.3);
+  margin-left: auto;
+  margin-right: auto;
+  width: 80em; 
+}
+
+.thumbnail {
+  width: 400px;
+  height: 300px;
+  overflow: auto;
+}
+
+.thumbnail img {
+  width: 200px;
+  height: 200px;
+}
+
+.thumbnail h4 {
+  height: 20px;
+  text-align: center;
+}
+
+#contact {
+  color: white;
+  font-family: Raleway;
+  background-color: rgba(0,0,0,0.3);
+  width: 800px;
+  height: 200px;
+  position: relative;
+}
+
+#left_col {
+  float:left;
+}
+
+#right_col {
+  float:riht;
+}
+
+#footer {
+  background-color: black;
+  color: white;
+}
+
+.copy_right {
+  text-align: right;
+  margin-right: 15px;
+}
+
